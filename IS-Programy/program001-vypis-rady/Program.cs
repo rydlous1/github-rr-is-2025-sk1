@@ -3,7 +3,7 @@ while (again == "a")
 {
     Console.Clear();
     Console.WriteLine("**");
-    Console.WriteLine(" Název programu ");
+    Console.WriteLine(" Výpis řady ");
     Console.WriteLine("**");
     Console.WriteLine("*** Rudolf Rýdl **");
     Console.WriteLine("**");
