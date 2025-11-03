@@ -50,15 +50,16 @@ while (again == "a")
         }
     }
     else
-    {
+        {
         for (int i = first; i >= last; i -= step)
-{
-Console.WriteLine(i);
-}
+        
+        {
+        Console.WriteLine(i);
+        }
 }
 Console.WriteLine();
 Console.WriteLine("Pro opakování programu stiskněte klávesu a.");
 Console.WriteLine("Pro ukončení stiskněte libovolnou jinou klávesu.");
-again = Console.ReadLine();
+again = Console.ReadLine()!;
 }
 Console.WriteLine("Program ukončen. Děkujeme!");
