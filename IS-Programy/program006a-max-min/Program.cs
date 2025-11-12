@@ -61,7 +61,7 @@ while (again == "a")
     int min = myRandNumbs[0];
     int posMax = 0;
     int posMin = 0;
-for (int i = 1; i < n; i++)
+    for (int i = 1; i < n; i++)
 {
         if (myRandNumbs[i] > max);
         {
@@ -82,8 +82,44 @@ for (int i = 1; i < n; i++)
     Console.WriteLine("=========================================");
     Console.WriteLine();
 
+//vykreslení obrazce
+if (max >= 3) 
+{
+    for (int i=0; i < max; i++)
+    {
+        int spaces, stars;
+        if (i < max / 2)
+        {
+            spaces = i;
+            // horní polovina - s každým dalším řádkem ubývají dvě hvězdičky (po)
+            stars = max - (2 * i);
+            // 10   10 - (2 * 0) = 10
+            // 10   10 - (2 * 1) = 8
+            // 10   10 - (2 * 2) = 6
+        }
+        else
+        {
+            spaces = max - i - 1;
+            if (max % 2 == 1)
+            {
+                stars = 2 * (i - max / 2) + 1;
+            }
+            else
+            {
+                stars = stars = 2 * (i - max / 2) + 2;
+            }
+        }
+        for (int sp = 0; sp < spaces; sp++)
+        {
+            Console.Write(" ");
+        }
 
-
+        for (int st = 0; st < stars; st++)
+            Console.Write("*");
+            
+    }
+    
+}
 
     Console.WriteLine();
     Console.WriteLine("Pro opakování programu stiskněte klávesu a.");
