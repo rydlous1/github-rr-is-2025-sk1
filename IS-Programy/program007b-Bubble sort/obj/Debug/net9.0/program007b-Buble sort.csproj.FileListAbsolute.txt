@@ -1,0 +1,15 @@
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program007b-Bubble sort\bin\Debug\net9.0\program007b-Buble sort.exe
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program007b-Bubble sort\bin\Debug\net9.0\program007b-Buble sort.deps.json
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program007b-Bubble sort\bin\Debug\net9.0\program007b-Buble sort.runtimeconfig.json
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program007b-Bubble sort\bin\Debug\net9.0\program007b-Buble sort.dll
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program007b-Bubble sort\bin\Debug\net9.0\program007b-Buble sort.pdb
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program007b-Bubble sort\obj\Debug\net9.0\program007b-Buble sort.GeneratedMSBuildEditorConfig.editorconfig
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program007b-Bubble sort\obj\Debug\net9.0\program007b-Buble sort.AssemblyInfoInputs.cache
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program007b-Bubble sort\obj\Debug\net9.0\program007b-Buble sort.AssemblyInfo.cs
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program007b-Bubble sort\obj\Debug\net9.0\program007b-Buble sort.csproj.CoreCompileInputs.cache
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program007b-Bubble sort\obj\Debug\net9.0\program007b-Buble sort.sourcelink.json
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program007b-Bubble sort\obj\Debug\net9.0\program007b-Buble sort.dll
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program007b-Bubble sort\obj\Debug\net9.0\refint\program007b-Buble sort.dll
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program007b-Bubble sort\obj\Debug\net9.0\program007b-Buble sort.pdb
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program007b-Bubble sort\obj\Debug\net9.0\program007b-Buble sort.genruntimeconfig.cache
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program007b-Bubble sort\obj\Debug\net9.0\ref\program007b-Buble sort.dll
