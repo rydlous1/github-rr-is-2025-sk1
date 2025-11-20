@@ -45,7 +45,6 @@ while (again == "a")
     // Deklarace pole
     int[] myRandNumbs = new int[n];
 
-    //Random myRandNumb = new Random(50); // generování stejných čísel při stejném vstupu - hodí se pro testování
     Random myRandNumb = new Random();
 
     Console.WriteLine();
@@ -53,17 +52,16 @@ while (again == "a")
     Console.WriteLine("Pseudonáhodná čísla:");
     for (int i = 0; i < n; i++)
     {
-        myRandNumbs[i] = myRandNumb.Next(lowerBound, upperBound);
+        myRandNumbs[i] = myRandNumb.Next(lowerBound, upperBound + 1);
         Console.Write("{0}; ", myRandNumbs[i]);
     }
-
 
     Stopwatch myStopwatch = new Stopwatch();
 
     int compare = 0;
     int change = 0;
 
-    // Algoritmus Bubble sort
+    // Bubble sort (sestupně)
     myStopwatch.Start();
     for (int i = 0; i < n - 1; i++)
     {
@@ -81,15 +79,14 @@ while (again == "a")
     }
     myStopwatch.Stop();
 
-
-
     // Výpis seřazených čísel
-
     Console.WriteLine();
     Console.WriteLine("================================================");
-    Console.WriteLine();
-    Console.WriteLine("Seřazená čísla");
-    for (int i = 0; i < n - 1; i++)
+    Console.WriteLine("Seřazená čísla:");
+    for (int i = 0; i < n; i++)
+    {
+        Console.Write("{0}; ", myRandNumbs[i]);
+    }
 
     Console.WriteLine();
     Console.WriteLine($"Počet Porovnání: {compare}");
@@ -100,7 +97,7 @@ while (again == "a")
     int secondLargest = myRandNumbs[1];
     Console.WriteLine($"\nDruhé největší číslo: {secondLargest}");
 
-     // Vykreslení obrazce podle druhého největšího čísla
+    // Vykreslení obrazce
     Console.WriteLine("\nObrazec (trojúhelník):");
 
     for (int i = 1; i <= secondLargest; i++)
@@ -112,4 +109,6 @@ while (again == "a")
         Console.WriteLine();
     }
 
-}   
+    Console.WriteLine("\nPro opakování programu stiskněte klávesu 'a'");
+    again = Console.ReadLine();
+}
