@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\TUL - škola\\repos\\github-rr-is-2025-sk1\\IS-Programy\\program0007-Bubble sort\\Bubble sort.csproj",
+      "projectUniqueName": "C:\\TUL - škola\\repos\\github-rr-is-2025-sk1\\IS-Programy\\program007a-Bubble sort\\Bubble sort.csproj",
       "projectName": "Bubble sort",
-      "projectPath": "C:\\TUL - škola\\repos\\github-rr-is-2025-sk1\\IS-Programy\\program0007-Bubble sort\\Bubble sort.csproj",
+      "projectPath": "C:\\TUL - škola\\repos\\github-rr-is-2025-sk1\\IS-Programy\\program007a-Bubble sort\\Bubble sort.csproj",
       "packagesPath": "C:\\Users\\rydlo\\.nuget\\packages\\",
-      "outputPath": "C:\\TUL - škola\\repos\\github-rr-is-2025-sk1\\IS-Programy\\program0007-Bubble sort\\obj\\",
+      "outputPath": "C:\\TUL - škola\\repos\\github-rr-is-2025-sk1\\IS-Programy\\program007a-Bubble sort\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
