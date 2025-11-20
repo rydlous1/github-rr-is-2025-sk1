@@ -1,17 +1,16 @@
 ﻿using System.Diagnostics;
-using System.Security.Authentication.ExtendedProtection;
 
 string again = "a";
 while (again == "a")
 {
     Console.Clear();
     Console.WriteLine("*******************************************");
-    Console.WriteLine("***** Bubble sort *****");
+    Console.WriteLine("***** Bubble Sort *****");
     Console.WriteLine("*******************************************");
-    Console.WriteLine("***************Rudolf Rýdl***************");
+    Console.WriteLine("*************** Rudolf Rýdl ***************");
     Console.WriteLine("*******************************************");
     Console.WriteLine();
-
+    
     Console.Write("Zadejte počet generovaných čísel (celé číslo): ");
     int n;
 
@@ -51,12 +50,11 @@ while (again == "a")
     Console.WriteLine();
     Console.WriteLine("=============================================");
     Console.WriteLine("Pseudonáhodná čísla:");
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < n ; i++)
     {
-        myRandNumbs[i] = myRandNumb.Next(lowerBound, upperBound);
+        myRandNumbs[i] = myRandNumb.Next(lowerBound, upperBound+1);
         Console.Write("{0}; ", myRandNumbs[i]);
     }
-
 
     Stopwatch myStopwatch = new Stopwatch();
 
@@ -81,19 +79,23 @@ while (again == "a")
     }
     myStopwatch.Stop();
 
-
-
     // Výpis seřazených čísel
-    
-        Console.WriteLine();
-    Console.WriteLine("===========================================");
     Console.WriteLine();
-    Console.WriteLine("Seřazená čísla");
-    for (int i = 0; i < n - 1; i++)
+    Console.WriteLine("================================");    
+    Console.WriteLine();
+    Console.WriteLine("Seřazená čísla: ");
+    for (int i = 0; i < n; i++)
+    {
+        Console.Write("{0}; ", myRandNumbs[i]);
+    }
 
     Console.WriteLine();
-    Console.WriteLine($"Počet Porovnání: {compare}");
-    Console.WriteLine($"Počet Výměn: {change}");
+    Console.WriteLine($"Počet porovnání: {compare}");
+    Console.WriteLine($"Počet výměn: {change}");
     Console.WriteLine("Čas potřebný na seřazení čísel: {0}", myStopwatch.Elapsed);
+
+    Console.WriteLine();
+    Console.WriteLine("Pro opakování programu stiskněte klávesu a.");
+    again = Console.ReadLine();
 
 }
