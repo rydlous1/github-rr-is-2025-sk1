@@ -97,18 +97,69 @@ while (again == "a")
     int secondLargest = myRandNumbs[1];
     Console.WriteLine($"\nDruhé největší číslo: {secondLargest}");
 
-    // Vykreslení obrazce
-    Console.WriteLine("\nObrazec (trojúhelník):");
 
-    for (int i = 1; i <= secondLargest; i++)
+// implementace nalezení i-tého nejvyššího čísla 
+    int iValue = 3;  // třeba druhá největší
+
+    int actualRank = 1;           // 1. největší je první prvek
+    int currentValue = myRandNumbs[0];
+    int ithLargest = 0;              // sem uložíme výsledek
+    bool found = false;              // zatím nenalezeno
+
+    // Procházíme čísla od druhého prvku
+    for (int j = 1; j < n; j++)
     {
-        for (int j = 1; j <= i; j++)
+        // Zjišťujeme, jestli je aktuální hodnota nová a menší
+        // Pokud není menší, je to duplicita => ignorujeme
+        // Pokud je menší, znamená to, že jsme narazili na odlišnou hodnotu a tu si uložíme
+        if (myRandNumbs[j] < currentValue)
         {
-            Console.Write("*");
+            currentValue = myRandNumbs[j];
+            actualRank++;
         }
+
+        // Sledujeme, jestli jsme právě narazili na i-tou hodnotu.
+        // Pokud je to i-tá, nastavíme ji (provede se to pouze jednou).
+        if (actualRank == iValue && found==false)
+        {
+            ithLargest = currentValue;
+            found = true;
+        }
+    }
+    Console.WriteLine($"i-tá největší hodnota ({iValue}): {ithLargest}\n\n");
+
+
+    /* Vykreslení obrazce */
+    int height = ithLargest;
+    int width = ithLargest * 2;
+
+    // 2× horní plný řádek
+    for (int r = 0; r < 2; r++)
+    {
+        for (int i = 0; i < width; i++)
+            Console.Write("*");
         Console.WriteLine();
     }
 
+    // vnitřní řádky (výška – 4, protože 2 plné řádky nahoře + 2 dole)
+    for (int i = 0; i < height - 4; i++)
+    {
+        Console.Write("*");                     // levá strana
+
+        for (int j = 0; j < width - 2; j++)     // prázdná mezera
+            Console.Write(" ");
+
+        Console.Write("*");                     // pravá strana
+        Console.WriteLine();
+    }
+
+    // 2× dolní plný řádek
+    for (int r = 0; r < 2; r++)
+    {
+        for (int i = 0; i < width; i++)
+            Console.Write("*");
+        Console.WriteLine();
+    }
     Console.WriteLine("\nPro opakování programu stiskněte klávesu 'a'");
     again = Console.ReadLine();
 }
