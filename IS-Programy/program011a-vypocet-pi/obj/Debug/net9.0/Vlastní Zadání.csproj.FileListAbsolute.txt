@@ -1,0 +1,15 @@
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program010a-Vlastní Zadání\obj\Debug\net9.0\Vlastní Zadání.GeneratedMSBuildEditorConfig.editorconfig
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program010a-Vlastní Zadání\obj\Debug\net9.0\Vlastní Zadání.AssemblyInfoInputs.cache
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program010a-Vlastní Zadání\obj\Debug\net9.0\Vlastní Zadání.AssemblyInfo.cs
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program010a-Vlastní Zadání\obj\Debug\net9.0\Vlastní Zadání.csproj.CoreCompileInputs.cache
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program010a-Vlastní Zadání\obj\Debug\net9.0\Vlastní Zadání.sourcelink.json
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program010a-Vlastní Zadání\bin\Debug\net9.0\Vlastní Zadání.exe
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program010a-Vlastní Zadání\bin\Debug\net9.0\Vlastní Zadání.deps.json
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program010a-Vlastní Zadání\bin\Debug\net9.0\Vlastní Zadání.runtimeconfig.json
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program010a-Vlastní Zadání\bin\Debug\net9.0\Vlastní Zadání.dll
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program010a-Vlastní Zadání\bin\Debug\net9.0\Vlastní Zadání.pdb
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program010a-Vlastní Zadání\obj\Debug\net9.0\Vlastní Zadání.dll
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program010a-Vlastní Zadání\obj\Debug\net9.0\refint\Vlastní Zadání.dll
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program010a-Vlastní Zadání\obj\Debug\net9.0\Vlastní Zadání.pdb
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program010a-Vlastní Zadání\obj\Debug\net9.0\Vlastní Zadání.genruntimeconfig.cache
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program010a-Vlastní Zadání\obj\Debug\net9.0\ref\Vlastní Zadání.dll
