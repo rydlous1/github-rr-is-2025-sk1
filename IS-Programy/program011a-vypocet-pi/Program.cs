@@ -5,7 +5,7 @@ while (again == "a")
     Console.WriteLine("****************************");
     Console.WriteLine("***** Výpočet PI *****");
     Console.WriteLine("****************************");
-    Console.WriteLine("******* Tomáš Žižka ********");
+    Console.WriteLine("******* Rudolf Rýdl ********");
     Console.WriteLine("****************************");
     Console.WriteLine();
 

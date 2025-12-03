@@ -1,2 +1,79 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿string again = "a";
+while (again == "a")
+{
+    Console.Clear();
+    Console.WriteLine("*******************************************");
+    Console.WriteLine("***** array reversing *****");
+    Console.WriteLine("*******************************************");
+    Console.WriteLine("***************Rudolf Rýdl***************");
+    Console.WriteLine("*******************************************");
+    Console.WriteLine();
+
+    Console.Write("Zadejte počet generovaných čísel (celé číslo): ");
+    int n;
+
+    while (!int.TryParse(Console.ReadLine(), out n))
+    {
+        Console.Write("Nezadali jste celé číslo. Zadejte znovu počet čísel: ");
+    }
+
+    Console.Write("Zadejte dolní mez (celé číslo): ");
+    int lowerBound;
+
+    while (!int.TryParse(Console.ReadLine(), out lowerBound))
+    {
+        Console.Write("Nezadali jste celé číslo. Zadejte znovu dolní mez: ");
+    }
+
+    Console.Write("Zadejte horní mez (celé číslo): ");
+    int upperBound;
+
+    while (!int.TryParse(Console.ReadLine(), out upperBound))
+    {
+        Console.Write("Nezadali jste celé číslo. Zadejte znovu horní mez: ");
+    }
+
+    Console.WriteLine();
+    Console.WriteLine("================================================");
+    Console.WriteLine("Zadané hodnoty:");
+    Console.WriteLine("Počet čísel: {0}; Dolní mez: {1}; Horní mez: {2}", n, lowerBound, upperBound);
+    Console.WriteLine("================================================");
+
+    // Deklarace pole
+    int[] myRandNumbs = new int[n];
+
+    //Random myRandNumb = new Random(50); // generování stejných čísel při stejném vstupu - hodí se pro testování
+    Random myRandNumb = new Random();
+
+    Console.WriteLine();
+    Console.WriteLine("=============================================");
+    Console.WriteLine("Pseudonáhodná čísla:");
+    for (int i = 0; i < n; i++)
+    {
+        myRandNumbs[i] = myRandNumb.Next(lowerBound, upperBound);
+        Console.Write("{0}; ", myRandNumbs[i]);
+    }
+    for (int i = 0; i < n/2; i++){
+        int tmp = myRandNumbs [i];
+        myRandNumbs[i] = myRandNumbs[n-1-i];
+        //myRandNumbs[0] = myRandNumbs[4];
+        //myRandNumbs[1] = myRandNumbs[3];
+        
+        myRandNumbs[n-1-i] = tmp;
+    }
+    Console.WriteLine();
+    Console.WriteLine("==============================================");
+    Console.WriteLine("Pole po reverzi");
+    Console.WriteLine();
+    for (int i = 0;i < n; i++)
+    {
+        Console.Write("{0}; ", myRandNumbs[i]);
+    }
+
+
+    Console.WriteLine();
+    Console.WriteLine("Pro opakování programu stiskněte klávesu a.");
+    again = Console.ReadLine();
+    
+
+}

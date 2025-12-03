@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Vlastní Zadání")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8302b65984581cd36ee33a16c4bd7d5ff7398c15")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+da2c1b67a50be7588fbccb57b403967a76a6a753")]
 [assembly: System.Reflection.AssemblyProductAttribute("Vlastní Zadání")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Vlastní Zadání")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
