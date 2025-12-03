@@ -1,0 +1,15 @@
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program012a-intervaly\bin\Debug\net9.0\program012a-intervaly.exe
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program012a-intervaly\bin\Debug\net9.0\program012a-intervaly.deps.json
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program012a-intervaly\bin\Debug\net9.0\program012a-intervaly.runtimeconfig.json
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program012a-intervaly\bin\Debug\net9.0\program012a-intervaly.dll
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program012a-intervaly\bin\Debug\net9.0\program012a-intervaly.pdb
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program012a-intervaly\obj\Debug\net9.0\program012a-intervaly.GeneratedMSBuildEditorConfig.editorconfig
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program012a-intervaly\obj\Debug\net9.0\program012a-intervaly.AssemblyInfoInputs.cache
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program012a-intervaly\obj\Debug\net9.0\program012a-intervaly.AssemblyInfo.cs
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program012a-intervaly\obj\Debug\net9.0\program012a-intervaly.csproj.CoreCompileInputs.cache
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program012a-intervaly\obj\Debug\net9.0\program012a-intervaly.sourcelink.json
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program012a-intervaly\obj\Debug\net9.0\program012a-intervaly.dll
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program012a-intervaly\obj\Debug\net9.0\refint\program012a-intervaly.dll
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program012a-intervaly\obj\Debug\net9.0\program012a-intervaly.pdb
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program012a-intervaly\obj\Debug\net9.0\program012a-intervaly.genruntimeconfig.cache
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program012a-intervaly\obj\Debug\net9.0\ref\program012a-intervaly.dll
