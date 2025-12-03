@@ -8,7 +8,7 @@ while (again == "a")
     Console.WriteLine("***************Rudolf Rýdl***************");
     Console.WriteLine("*******************************************");
     Console.WriteLine();
-    
+
     Console.Write("Zadejte počet generovaných čísel (celé číslo): ");
     int n;
 
@@ -48,13 +48,13 @@ while (again == "a")
     Console.WriteLine();
     Console.WriteLine("=============================================");
     Console.WriteLine("Pseudonáhodná čísla:");
-    for (int i = 0; i < n ; i++)
+    for (int i = 0; i < n; i++)
     {
         myRandNumbs[i] = myRandNumb.Next(lowerBound, upperBound);
         Console.Write("{0}; ", myRandNumbs[i]);
     }
 
-    
+
     Console.WriteLine();
     Console.WriteLine("Pro opakování programu stiskněte klávesu a.");
     again = Console.ReadLine();
