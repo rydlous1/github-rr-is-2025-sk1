@@ -1,0 +1,15 @@
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program014a-kombinovana-uloha\bin\Debug\net9.0\program012a-kombinovana-uloha.exe
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program014a-kombinovana-uloha\bin\Debug\net9.0\program012a-kombinovana-uloha.deps.json
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program014a-kombinovana-uloha\bin\Debug\net9.0\program012a-kombinovana-uloha.runtimeconfig.json
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program014a-kombinovana-uloha\bin\Debug\net9.0\program012a-kombinovana-uloha.dll
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program014a-kombinovana-uloha\bin\Debug\net9.0\program012a-kombinovana-uloha.pdb
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program014a-kombinovana-uloha\obj\Debug\net9.0\program012a-kombinovana-uloha.GeneratedMSBuildEditorConfig.editorconfig
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program014a-kombinovana-uloha\obj\Debug\net9.0\program012a-kombinovana-uloha.AssemblyInfoInputs.cache
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program014a-kombinovana-uloha\obj\Debug\net9.0\program012a-kombinovana-uloha.AssemblyInfo.cs
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program014a-kombinovana-uloha\obj\Debug\net9.0\program012a-kombinovana-uloha.csproj.CoreCompileInputs.cache
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program014a-kombinovana-uloha\obj\Debug\net9.0\program012a-kombinovana-uloha.sourcelink.json
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program014a-kombinovana-uloha\obj\Debug\net9.0\program012a-kombinovana-uloha.dll
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program014a-kombinovana-uloha\obj\Debug\net9.0\refint\program012a-kombinovana-uloha.dll
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program014a-kombinovana-uloha\obj\Debug\net9.0\program012a-kombinovana-uloha.pdb
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program014a-kombinovana-uloha\obj\Debug\net9.0\program012a-kombinovana-uloha.genruntimeconfig.cache
+C:\TUL - škola\repos\github-rr-is-2025-sk1\IS-Programy\program014a-kombinovana-uloha\obj\Debug\net9.0\ref\program012a-kombinovana-uloha.dll
